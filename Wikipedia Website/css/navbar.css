@@ -1,0 +1,186 @@
+.navbar{
+    border: 2px solid whitesmoke;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: white;
+    z-index: 2;
+}
+
+.nav-logo{
+    width: 300px;
+    height: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 40px;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+
+.nav-fav{
+    /* border: 1px solid black; */
+    height: 30%;
+    width: 10%;
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAYFBMVEX///8AAAA6Ojr09PRhYWH7+/vPz8/j4+Pn5+d5eXn19fVmZmbx8fH4+Pj8/PzOzs5SUlINDQ25ubkmJiZNTU2xsbHa2tpAQEBwcHC/v79ZWVmXl5dFRUU/Pz+Pj4/IyMgUVUxvAAAB0UlEQVR4nO3dWW4qQQwF0H4MgSZhypyQYf+7jAiR3q+r+qPk4pwV+Mqi6MFyDwMAAAAAAAAAAAAAAAAhd/fjIo/x/q404NfxXy7Hr7IGPrQuuMJDQRtTBiyKuGhda6XbaMDv1pVW++68heEmLlvXOcEylHDVuswJ1qGEN63LnOAmlPC5dZkTPIcSbluXOcE2lHB4bF1ntcdYwOGpdaHVnoIJd7PWlVaa7YIJ0541sXPm1751rVVifxV/1ofW5RY7rEoCnts4vuS5CT6+jEUN/LPbzLPYhI8YAAAAAADo026ZRdVD/dVp8THL4mNxKn3ztHlt/Tqp2OumqIGty61S0MZ161orxSaizvK9AL44RAO+ta602lsw4XvrQqu9xwL2P/WV8yC9iB2n/U9f9t/D/n+H/Z+lV/B/2P81zRVclyY9TotuEbcJ7w+D5+j/NnZ+j/+r8+c0AAAAAADQj953KuzHz0R7MT6L92J0v9sk50hNQRu73zHU/56o/nd9db+vrf+pr5yjJhemLy+yTkSdxaai+t9BO9y2rrNadBl03l3Q+2DCtE0M7/Me5kl3ss/DCXOunS/Zqz9k/DbCqSjfcAXftwAAAAAAAAAAAAAAALhWPwxzQp1lAcSiAAAAAElFTkSuQmCC');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.nav-fav:hover{
+    cursor: pointer;
+}
+
+.nav-symbol{
+    /* border: 1px solid black; */
+    width: 20%;
+    height: 80%;
+    background-image: url('	https://en.wikipedia.org/static/images/icons/wikipedia.png');
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+.image{
+    width: 60%;
+    height: 60%;
+    /* border: 1px solid blue; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.nav-image{
+    width: 70%;
+    height: 50%;
+    background-image: url('	https://en.wikipedia.org/static/images/mobile/copyright/wikipedia-wordmark-en.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+.nav-image-2{
+    width: 70%;
+    height: 50%;
+    /* border: 1px solid orange; */
+    background-image: url('https://en.wikipedia.org/static/images/mobile/copyright/wikipedia-tagline-en.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 5px;
+}
+
+
+.search{
+    /* border: 1px solid black; */
+    width: 30%;
+    height: 40%;
+    margin-right: 550px;
+    position: relative;
+    
+}
+
+.search input{
+    height: 28px;
+    width: 80%;
+    /* position: relative; */
+    padding-left: 30px;
+   
+}
+
+
+.search input:focus{
+    border: 2px solid blue ;
+}
+
+
+
+
+.search img{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    padding: 5px 5px;
+}
+
+.search-btn{
+    position: absolute;
+    height: 31px;
+    width: 15%;
+    top: 0;
+    right: 0;
+    font-weight: 600;
+}
+
+.search-btn:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+    border-color: blue;
+}
+
+.nav-links{
+    /* border: 1px solid black; */
+    /* margin-right: 350px; */
+    width: 20%;
+    height: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-links img{
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+.more-info{
+    position: absolute;
+    border: 1px solid black;
+    width: 180px;
+    height: 25px;
+    display: none;
+    color: white;
+    background-color: black;
+    top: 50px;
+    right: 10px;
+    font-size: 16px;
+}
+
+.nav-links img:hover{
+    cursor: pointer;
+
+}
+
+.nav-links:hover .more-info{
+    display: block;
+}
+
+
+
+
+.nav-item{
+    /* border: 1px solid black; */
+    height: 15px;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.nav-item:link{
+    color: blue;
+}
+
+.nav-item:visited{
+    color: black;
+}
+
+.nav-item:hover{
+    cursor: pointer;
+}
+

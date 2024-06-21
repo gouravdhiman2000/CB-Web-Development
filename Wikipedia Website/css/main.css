@@ -1,0 +1,213 @@
+.main-container{
+    /* border: 2px solid black; */
+    width: 100%;
+    /* height: 600px; */
+    display: flex;
+    margin-top: 100px;
+    /* position: relative; */
+
+}
+
+.content-list{
+    position: relative;
+    width: 15%;
+}
+
+.content-container{
+    width: 100%;
+    /* height: 500px; */
+    /* border: 1px solid red; */
+    margin-top: 50px;
+    padding-left: 20px;
+    position: sticky;
+    top: 100px;
+
+    
+}
+
+.content-heading{
+    font-size: 20px;
+    font-weight: 600;
+   
+}
+
+.hide-btn{
+    width: 50px;
+    height: 20px;
+}
+
+.hide-btn:hover{
+    cursor: pointer;
+    background-color: bisque;
+}
+
+.info h3{
+    color: blue;
+    margin-top: 10px;
+}
+
+.sep-line-1{
+    border: 1px solid grey;
+    width: 90%;
+    margin-top: 5px;
+}
+
+.content-info{
+    font-size: 18px;
+    color: blue;
+    margin-top: 15px;
+}
+
+.main-article{
+    /* border: 1px solid green; */
+    width: 60%;
+    margin-top: 20px;
+    margin-left: 21px;
+    
+}
+
+.article-heading{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+
+.sep-line-2{
+    border: 1px solid grey;
+    margin-top: 1px;
+}
+
+.article-text{
+    display: flex;
+    
+    /* justify-content: space-around; */
+    color: blue;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+
+
+
+.article-left-side span,.article-right-side span{
+    padding: 10px;
+}
+
+
+.article-info{
+    /* border: 1px solid orange; */
+    width: 100%;
+    /* height: 500px; */
+    display: flex;
+    
+}
+
+.article-about{
+    /* border: 1px solid yellow; */
+    width: 70%;
+    text-align: justify;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+.article-image{
+    /* border: 1px solid violet; */
+    width: 30%;
+    height: 420px;
+    background-color: whitesmoke;
+    margin-top: 20px;
+    margin-left:5px ;
+}
+
+.image-heading{ 
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.image-container{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Shri_Narendra_Modi%2C_Prime_Minister_of_India.jpg/330px-Shri_Narendra_Modi%2C_Prime_Minister_of_India.jpg');
+    width: 220px;
+    height: 293px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 10px auto;
+ 
+}
+
+.image-container:hover{
+    cursor: pointer;
+}
+
+.image-text{
+    text-align: center;
+}
+
+.about-image{
+    text-align: center;
+    margin-top: 10px;
+    border: 1px solid #e6e6fa;;
+    background-color: #e6e6fa;
+}
+
+.about-image span{
+    color: blue;
+    text-align: center;
+} 
+
+.another-info{
+    /* border: 1px solid black; */
+    width: 20%;
+    margin-top: 50px;
+    position: relative;
+    margin-left: 10px;
+}
+
+.appearance{
+    position: sticky;
+    top: 100px;
+    padding-left: 10px;
+}
+
+
+.appearance-heading{
+    font-size: 18px;
+    font-weight: 600;
+    /* padding-left: 10px; */
+}
+
+.text,.width{
+    margin-top: 10px;
+    /* padding-left: 10px; */
+    padding: 10px 10px;
+}
+
+.input-radio{
+    margin: 10px;
+    
+}
+
+.input-radio div{
+    /* font-size: 18px; */
+    padding-top:12px;
+}
+
+.input{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    /* padding-top: 10px; */
+}
+
+.input-text{
+    font-size: 18px;
+    padding-left: 10px;
+    position: absolute;
+}
+
+
+
+
+
+
