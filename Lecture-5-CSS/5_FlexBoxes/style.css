@@ -1,0 +1,46 @@
+.container{
+    border: 5px solid black;
+    height: 1200px;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* justify content- align items wrt the main axis */
+    /* justify-content: space-around; */
+
+    /* align items -single item upr niche ho jaye */
+    /* align-items: baseline; */
+
+    /* align content - align item wrt to cross axis */
+
+    align-content: baseline;
+    gap: 20px 30px;
+}
+
+.child{
+    width: 200px;
+    height:200px;
+    border: 2px solid green;
+    background-color: orange;
+    font-size: 30px;
+    font-weight: 700;
+    
+}
+
+.child-11{
+    /* padding-top: 250px; */
+    order: 1;
+    /* by default zero hoti hai value */
+}
+
+.child-14{
+    /* padding-top: 100px; */
+    flex-grow: 3;
+    order: -1;
+}
+
+.child-15{
+    /* padding-top: 150px; */
+    flex-grow: 2;
+    order: -2;
+}

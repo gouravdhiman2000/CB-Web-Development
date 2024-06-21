@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    border: 2px solid black;
+    min-height: 400px;
+    font-size: 30px;
+    margin: 30px;
+}
+
+.child{
+    border: 5px solid orange;
+    width: 400px;
+    position: relative;
+    /* if width is fixed then child will move wrt to that width only */
+    margin: auto;
+    /* margin auto only works for the width not for the height */
+    top: 40px;
+    left: 150px;
+}

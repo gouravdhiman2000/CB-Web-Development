@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: grid;
+    width: 900px;
+    border: 2px solid black;
+    margin: auto;
+    font-size: 24px;
+    /* no of columns */
+    /* grid-template-columns: 300px 300px 300px; */
+    /* grid-template-columns: repeat(3,300px); */
+    grid-template-columns: repeat(3,1fr);
+    /* no of rows */
+    /* grid-template-rows: 100px 100px 100px 150px; */
+    grid-template-rows: repeat(3,150px) 200px;
+
+
+    grid-template-areas: 
+    "one one two "
+    "one one two"
+    "three four five"
+    "three four five";
+    /* add dot if wew want to leave space empty */
+
+    gap:20px;
+}
+
+.child{
+    border: 2px solid orange;
+}
+
+/* giving name to each child */
+
+
+.child-1{
+    grid-area: one;
+}
+.child-2{
+    grid-area: two;
+}
+
+.child-3{
+    grid-area: three;
+}
+
+.child-4{
+    grid-area: four;
+}
+
+.child-5{
+    grid-area: five;
+}
