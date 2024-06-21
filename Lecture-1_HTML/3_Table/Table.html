@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+    <table border="1" cellpadding="25" cellspacing="15">
+        <!-- cellpadding gives space to content according to its border -->
+        <!-- cellspacing gives space between the different cells acc. to main border-->
+        <thead>
+            <tr>
+                <th>Mon</th>
+                <th>Tues</th>
+                <th>Wed</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <!-- colspan used for how much column space can it take -->
+                <td colspan="2" align="center">C++</td>
+                <td rowspan="3">Java</td>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>Web</td>
+            </tr>
+            <tr>
+                <td colspan="2">Data Science</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
