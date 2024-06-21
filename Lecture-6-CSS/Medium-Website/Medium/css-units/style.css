@@ -1,0 +1,15 @@
+html{
+    font-size: 40px;
+}
+
+.parent{
+    font-size: 20px;
+}
+
+.child{
+    /* em wrt to current jo bhi mera size hai uske respect mei size increase hoga */
+    /* font-size: 2em; */
+
+    /* rem wrt to root element- here root is html*/
+    font-size: 2rem;
+}

@@ -1,0 +1,22 @@
+.main-articles{
+    /* width: 80%; */
+    display: flex;
+    width: 80%;
+    margin:90px auto;
+    justify-content: space-between;
+    
+}
+
+.articles-container{
+    width: 60%;
+    border: 1px solid black;
+    height: 1200px;
+}
+
+.articles-topic-container{
+    width: 30%;
+    border: 1px solid black;
+    height: 400px; 
+    position: sticky;
+    top: 100px;
+}
