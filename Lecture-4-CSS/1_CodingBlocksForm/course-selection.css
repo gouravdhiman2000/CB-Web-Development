@@ -1,0 +1,38 @@
+.course-choose-selection{
+    width: 80%;
+    margin:  20px auto;
+    /* border: 1px solid black; */
+    /* margin-top: 20px; */
+}
+.course-choose-heading{
+    font-size: 24px;
+}
+
+.choose-course-item-1,.choose-course-item-2{
+    width: 50%;
+    height: 200px;
+
+}
+
+.choose-course-item-1{
+    /* background-color: orange; */
+    float: left;
+}
+
+.choose-course-item-2{
+    /* background-color: blue; */
+    float: right;
+}
+
+.courses-chechbox{
+    height: 20px;
+    width: 20px;
+}
+
+.courses-name{
+    font-size: 22px;
+}
+
+.courses-name-container{
+    margin: 10px;
+}

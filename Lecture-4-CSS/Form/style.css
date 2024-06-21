@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: lightgreen;
+}
+
+.container{
+    width: 80%;
+    /* border: 2px solid black; */
+    margin: 100px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+   
+}
+.form-heading{
+    font-size: 24px;
+    margin: 20px;
+    color: rgb(61, 154, 61);
+}
+
+
+.form-text{
+    font-size: 18px;
+    margin: 20px 20px;
+    padding-left: 5px;
+}
+
+.parent{
+    width: 100%;
+    display: flex;
+    /* border: 1px solid black; */
+}
+.user-basic-info,.another-info{
+    width: 50%;
+    height: 670px;
+    /* border: 1px solid black; */
+    margin: 20px auto;
+    display: flex;
+}
+
+
+
+.user-details{
+    margin-left: 20px;
+    /* border: 1px solid black; */
+    width: 100%;
+}
+
+.input-heading {
+    
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px;
+}
+
+.input{
+    margin: 10px;
+}
+
+.input input{
+    width: 100%;
+    height: 30px;
+}
+
+input::placeholder{
+    color: lightgreen;
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 10px;
+    padding-top: 4px;
+}
+
+.select{
+    /* border: 1px solid black; */
+    margin-left: 10px;
+}
+
+select {
+    width: 98%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-size: 1em;
+
+}
+
+/* .radio-group{
+    width: 100%;
+    border: 1px solid black;
+} */
+.radio-group{
+    margin: 20px auto;
+    padding-left: 10px;
+}
+
+legend{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.radio-input{
+    width: 100%;
+    display: flex;
+    /* border: 1px solid black; */
+}
+
+.input-1,.input-2{
+    /* border: 1px solid black; */
+    width: 50%;
+    height: 100px;
+    margin: 20px auto;
+}
+
+.radio{
+    margin: 15px 10px;
+}
+
+.radio label{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0 10px;
+}
+
+.text{
+    margin-left: 10px;
+    /* margin-top: 20px; */
+}
+
+.text-heading{
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.radio-text{
+    margin-top: 20px;
+}
+
+.another-info{
+    margin: 20px 50px;
+}
+
+.yes,.no{
+    margin-top: 10px;
+}
+
+
+.btn-submit{
+   margin: 20px 10px;
+   width: 100%;
+}
+
+button[type="submit"] {
+    width: 100%;
+    
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
