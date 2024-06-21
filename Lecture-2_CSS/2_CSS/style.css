@@ -1,0 +1,16 @@
+.my-element{
+    color: black;
+    background-color: orange;
+}
+.el{
+    color: black;
+    background-color: orange;
+}
+#my-div{
+    color: blue !important;
+}
+/* id ke liye # */
+#heading{
+    color: aquamarine;
+    background-color: rgb(86, 65, 169);
+}

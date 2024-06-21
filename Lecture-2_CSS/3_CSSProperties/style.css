@@ -1,0 +1,32 @@
+*{
+    /* universal selector */
+    font-family: sans-serif;
+}
+.heading{
+    font-size: 50px;
+}
+
+div{
+    font-size: 25px;
+    line-height: 1.5;
+}
+
+.authorities, .zooanimals{
+    font-size: 25px;
+}
+
+
+/* margin , paddding, border */
+
+.para{
+    /* border: width type color */
+    border: 2px dashed black;
+    /* space between text and border*/
+    padding: 15px 15px;
+    /* top and bottom */
+    /* space between border to main context */
+    /* margin-top: 40px; */
+    margin: 15px 15px;
+    /* border-top: 2px solid red;
+    border-bottom: 2px solid blue; */
+}

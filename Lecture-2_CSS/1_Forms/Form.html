@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="" method="">
+        <fieldset>
+            <legend>User Credentials</legend>
+            <input type="text" placeholder="Enter Name" required>
+            <input type="password" name="" id="" placeholder="Enter Password" required>
+            <input type="number" name="" id="" min="18" max="100" value="20" step="5" placeholder="Enter Age" required>
+            
+        </fieldset>
+        <h3>Which is not a programming language?</h3>
+        <!--in radio button only single is selected -->
+        <!-- radio button mei ek hi select ho uske liye hum unko group krte hai using name attribute -->
+        <input type="radio" name="programming" >C++
+        <input type="radio" name="programming" >JAVA
+        <input type="radio" name="programming" >HTML
+        <input type="radio" name="programming" >Python
+
+        <h3>Which all are programming language?</h3>
+        <!-- in chechboxes we can select multiple boxes -->
+        <input type="checkbox" name="" id="">C#
+        <input type="checkbox" name="" id="">C
+        <br>
+        <input type="checkbox" name="" id="">CSS
+        <input type="checkbox" name="" id="">Hindi
+        <br>
+        <fieldset>
+            <legend>About You</legend>
+            <textarea name="Introduction" id="" cols="30" rows="10" >I am eligible for the profile....</textarea>
+
+            <textarea name="Introduction" id="" cols="30" rows="10" placeholder="Tell us about yourself"></textarea>
+        </fieldset>
+        <!-- form to submit karne ke liye button jaruri hai -->
+        <button type="submit">
+            Submit
+        </button>
+    </form>
+</body>
+</html>
