@@ -1,0 +1,10 @@
+/* child selector/ descendant selector */
+.container .child{
+    background-color: black;
+    color: white;
+}
+
+.container .child span{
+    background-color: red;
+    color: yellow;
+}

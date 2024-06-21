@@ -1,0 +1,20 @@
+/* Combinators */
+
+/* 1. direct child (>)*/
+
+/* ul>li{
+   color: orange; 
+} */
+
+/* 2. immediate siblings (+)*/
+
+/* li+li{
+    color: yellowgreen;
+} */
+
+
+/* 3. General sibling(~) */
+
+li~li{
+    color: yellowgreen;
+}
