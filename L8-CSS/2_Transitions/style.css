@@ -1,0 +1,29 @@
+.div{
+    background-color: orange;
+    width: 400px;
+    height: 500px;
+    margin:150px auto;
+    border: 5px solid black;
+    /* jaate hue bhi aur aate hue bhi transition lage ga */
+    transition-duration: 3s;
+    /* transition-delay: 3s; */
+    transition-timing-function: ease-out ;
+}
+
+.div:hover{
+    transform: rotateZ(180deg);
+    /* transition-duration: 2s; */
+    background-color: rgb(212, 189, 147);
+    border-radius: 50%;
+}
+
+
+.div-1{
+   
+    background-color: orange;
+    width: 400px;
+    height: 500px;
+    margin:150px auto;
+    border: 5px solid black;
+    transform: rotateZ(55deg);
+}
