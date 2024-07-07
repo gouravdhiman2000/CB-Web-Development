@@ -1,0 +1,46 @@
+*{
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    width: 1200px;
+    margin: auto;
+    margin-top: 80px;
+}
+
+button{
+    padding: 5px;
+    color: white;
+    background-color: tomato;
+    border: 0;
+    border-radius: 5px;
+    width: 20%;
+}
+
+.inp{
+    padding: 4px;
+    width: 70%;
+}
+
+.upBtn,.downBtn,.delBtn{
+    background-color: rgb(126, 228, 167);
+    color: white;
+    width: 10%;
+    cursor: pointer;
+}
+
+.taskItem{
+    margin: 10px auto;
+    list-style: none;
+}
+
+
+/* to remove up-arrow from the first task and
+down-arrow from the last task */
+li:first-child .upBtn,
+li:last-child .downBtn{
+    display: none;
+}
