@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Making Todo List using Backend</title>
+    
+    <!-- giving the path of root folder -->
+    <link rel="stylesheet" href="/style.css">
+
+    <!-- linking axios  -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <h1>Todo List</h1>
+
+    <form action="/getTask" method="get">
+        <input type="text" name="task" placeholder="Enter task name">
+        <button type="submit">Add Task</button>
+    </form>
+
+    <ul class="taskList">
+
+    </ul>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
