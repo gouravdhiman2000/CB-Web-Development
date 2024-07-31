@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Request</title>
+
+    <!-- AXIOS  -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <h1>Learning Post Request</h1>
+    <!-- Action define karta hai request kis par jayegi -->
+     <!-- method -> POST/GET/PUT/PATCH/DELETE -->
+      <!-- Default method: GET -->
+    <form action="/submit-form" method="POST">
+        <input type="text" name="username" placeholder="Enter Username">
+
+        <input type="text" name="password" id="password" placeholder="Enter Password">
+
+        <button type="submit">Log In</button>
+    </form>
+
+    <!-- To send AJAX request make script.js -->
+    <script src="./script.js"></script>
+</body>
+</html>
