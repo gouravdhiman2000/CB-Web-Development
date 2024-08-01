@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Building TodoList API</title>
+
+    <!-- AXIOS  -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <style>
+        .taskItem{
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    <h1>Learning Post Request</h1>
+    <!-- Action define karta hai request kis par jayegi -->
+     <!-- method -> POST/GET/PUT/PATCH/DELETE -->
+      <!-- Default method: GET -->
+       <!-- action send request to ('/todos') POST to add the newTask on the client -->
+
+    <form action="/todos" method="POST">
+        <input type="text" name="newTask" placeholder="Enter Task Name">
+        <button type="submit">Add Task</button>
+    </form>
+
+    <!-- 8. Create list -->
+    <ul class="taskList">
+        <!-- <li class="taskItem">
+            <div class="taskContent">Cricket</div>
+            <div class="btnGroups">
+                <button class="upBtn">⬆️</button> <button class="downBtn">⬇️</button> <button class="deleteBtn">❌</button>
+            </div>
+        </li> -->
+    </ul>
+
+    <!-- To send AJAX request make script.js -->
+    <script src="./script.js"></script>
+</body>
+</html>
