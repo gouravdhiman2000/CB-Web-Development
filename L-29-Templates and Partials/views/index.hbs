@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+{{!-- <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Templating Engine</title>
+
+    <style>
+        .taskItem{
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head> --}}
+
+{{>head}}
+
+<body>
+    {{!-- accessing the name variable{{name}} from the app.js by moustache syntax --}}
+    <h1>Todo List by {{firstName}}{{lastName}}</h1>
+
+    
+    {{!-- <form action="/todos" method="POST">
+        <input type="text" name="newTask" placeholder="Enter Task Name">
+        <button type="submit">Add Task</button>
+    </form> --}}
+
+    {{!-- this is to submit a new todo --}}
+    {{>form}}
+
+
+    {{!-- partials --}}
+    {{!-- loading the entire task list --}}
+    {{>taskList}}
+    <!--
+    <ul class="taskList">
+        {{!-- accessing the todos array using loop--}}
+        {{!-- todos = ["Cricket", "Dance", "Sing", "Hockey"]; --}}
+
+        {{#each todos as |t|}}
+            {{!-- <li>{{t}}</li> --}}
+            <li class="taskItem">
+            <div class="taskContent">{{t}}</div>
+            <div class="btnGroups">
+                <a href="/increase?name={{t}}">
+                <button class="upBtn">⬆️</button>
+                </a>
+                <a href="/decrease?name={{t}}">
+                <button class="downBtn">⬇️</button> 
+                </a>
+                <a href="/deletetask?name={{t}}">
+                <button class="deleteBtn">❌</button>
+                </a>
+            </div>
+        </li> 
+        {{/each}}
+        
+    </ul>
+    -->
+</body>
+</html>
